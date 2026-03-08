@@ -1,0 +1,36 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+
+    /* vlastní kurzor */
+    cursor: url("https://cdn.discordapp.com/attachments/926492676856107058/1480315866766774456/pointer.png?ex=69af3b15&is=69ade995&hm=5b87da3a8a5de1eb261ebb8f191c90db350fb3dc8d2353984f1dce9761778184&") 0 0, auto;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    background: #111;
+}
+
+#valentinesButton {
+    display: none;
+    position: absolute;
+    background-color: #2d2dff;
+    border: 2px solid #2d2dff;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 10px;
+    top: calc(50% + 150px);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#valentinesButton:hover {
+    background-color: #1f1faa;
+    color: #eee;
+}
